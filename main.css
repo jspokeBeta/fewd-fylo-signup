@@ -4,9 +4,10 @@
   padding: 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, label {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
+  color: hsl(243, 87%, 12%);
 }
 
 body {
@@ -35,6 +36,7 @@ padding: 4rem;
 ion-icon {
   font-size: 30px;
   margin-left: 2.5rem;
+  color: hsl(243, 87%, 12%);
 }
 
 header {
@@ -45,4 +47,30 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
+}
+
+form {
+  margin-top: 4rem;
+}
+
+label {
+  width: 300px;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+input[type="email"] {
+  width: 16rem;
+  height: 3rem;
+  border-radius: .3rem;
+}
+
+input[type="submit"] {
+  background-color: hsl(163, 95%, 43%);
+  width: 8rem;
+  height: 3rem;
+  border-radius: .3rem;
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
 }
