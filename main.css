@@ -17,10 +17,15 @@ body {
 }
 
 ion-icon {
-  font-size: 64px;
+  font-size: 24px;
 }
 
-#left_side{
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#left_side {
   display: flex;
   width: 50%;
   background: linear-gradient(to bottom left, hsl(243, 87%, 12%), hsl(243, 86%, 85%));
@@ -28,6 +33,10 @@ ion-icon {
   align-items: center;
 }
 
-#right_side{
+#right_side {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 width: 50%;
+padding: 4rem;
 }

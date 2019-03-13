@@ -14,13 +14,16 @@
     <img src="./assets/images/illustration-main.svg" alt="Main illustation">
   </section>
   <section id="right_side">
-    <nav>
+    <header>
       <img src="./assets/images/logo.svg" alt="Fylo logo">
-      <ion-icon name="logo-twitter"></ion-icon>
-      <ion-icon name="logo-facebook"></ion-icon>
-      <ion-icon name="mail"></ion-icon>
-    </nav>
-    <h1>All your files in one secure location, accessible anywhere.</h1>
+      <nav>
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="mail"></ion-icon>
+      </nav>
+    </header>
+
+    <main id="main"><h1>All your files in one secure location, accessible anywhere.</h1>
 
     <p>Fylo stores all your most important files in one secure location.
     Access them wherever you need, share and collaborate with friends,
@@ -28,10 +31,18 @@
 
     <h3>Sign up for early access</h3>
 
-    Sign Up
+    <form>
+      <input type="email" name="email" />
+      <input type=button name="SignUp" value="Sign Up" />
+    </form>
+  </main>
 
+  <!-- Form input -->
+  <footer>
     <p><a href="">Privacy Policy</a></p>
+  </footer>
   </section>
+
   <!-- Ionicons script -->
   <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
 </body>
