@@ -21,8 +21,11 @@ ion-icon {
 }
 
 #left_side{
-width: 50%;
-background: linear-gradient(to bottom left, hsl(243, 87%, 12%), hsl(243, 86%, 85%));
+  display: flex;
+  width: 50%;
+  background: linear-gradient(to bottom left, hsl(243, 87%, 12%), hsl(243, 86%, 85%));
+  justify-content: center;
+  align-items: center;
 }
 
 #right_side{
