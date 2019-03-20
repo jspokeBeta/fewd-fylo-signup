@@ -21,12 +21,12 @@ body {
   height: 100vh;
 }
 
-#main > p {
-  margin-top: 2rem;
-  font-color: hsl(0, 0%, 50%);
-}
+ #main > p {
+   margin-top: 2rem;
+   font-color: hsl(0, 0%, 50%);
+ }
 
-#left_side {
+ #left_side {
   display: flex;
   width: 50%;
   background: linear-gradient(to bottom left, hsl(243, 87%, 12%), hsl(243, 86%, 85%));
@@ -70,8 +70,8 @@ label {
 
 input[type="email"] {
   margin-top: 1rem;
-  width: 16rem;
-  height: 3rem;
+  width: 18rem;
+  height: 4rem;
   border-radius: .3rem;
   font-size: 1rem;
 }
@@ -79,9 +79,68 @@ input[type="email"] {
 input[type="submit"] {
   background-color: hsl(163, 95%, 43%);
   width: 8rem;
-  height: 3rem;
+  height: 4rem;
   border-radius: .3rem;
   color: #fff;
   font-size: 1rem;
   font-family: 'Open Sans', sans-serif;
+  box-shadow: 5px 5px 20px font-color: hsl(0, 0%, 70%);
+  margin-left: .5rem;
+}
+
+footer {
+  text-align: right;
+  font-size: .8rem;
+}
+
+@media only screen and (max-width: 1115px){
+  body {
+    flex-direction:column;
+    height: 100%;
+    width: 100%;
+  }
+
+  #left_side {
+    width: 100%;
+    background: url('../images/bg-intro.svg');
+    background-size: cover;
+    min-height: 475px;
+  }
+
+  #left_side > img {
+    width: 65%;
+  }
+
+  #right_side {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  header {
+    position: absolute;
+    top: 30px;
+    width: 85%
+  }
+
+  header > img {
+    width: 84px;
+    height: 24.5px;
+  }
+
+  ion-icon {
+    font-size: 18px;
+    margin-left: 1rem;
+    color: white;
+  }
+
+  input[type="email"] {
+    width: 100%;
+    height: 2rem;
+  }
+
+  input[type="submit"] {
+    width: 8.5rem;
+    height: 2rem;
+    margin: 1rem 0 0 0;
+  }
 }
