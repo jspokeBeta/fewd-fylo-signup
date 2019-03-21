@@ -122,9 +122,13 @@ footer {
     width: 85%
   }
 
-  header > img {
+  header > svg {
     width: 84px;
     height: 24.5px;
+  }
+
+  svg path#fylo_logo {
+    fill: #fff;
   }
 
   ion-icon {
@@ -142,5 +146,11 @@ footer {
     width: 8.5rem;
     height: 2rem;
     margin: 1rem 0 0 0;
+  }
+
+  footer {
+    margin-top: 2rem;
+    text-align: right;
+    font-size: .8rem;
   }
 }
